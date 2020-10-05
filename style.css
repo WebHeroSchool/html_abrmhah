@@ -1,9 +1,9 @@
-.title {
+.main-content__title {
   font-family: 'PT Serif', serif;
   font-weight: bold;
 }
 
-.subtitle {
+.main-content__subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
