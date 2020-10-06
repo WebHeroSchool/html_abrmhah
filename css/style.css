@@ -13,16 +13,31 @@ body {
 }
 
 .logo {
-  padding: 40px 0;
+  padding: 40px 0 40px 44px;
   position: relative;
   font: 24px/31px 'PT Serif', serif;
-  border: dashed 2px purple;
 }
 
 .logo__circle {
+  position: absolute;
   width: 28px;
   height: 28px;
-  border: dashed 1px red;
+  border-radius: 50%;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+  opacity: .7;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 46%;
+  background: #C8DBFB;
+  opacity: .7;
 }
 
 .menu {
