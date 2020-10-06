@@ -13,11 +13,16 @@ body {
 }
 
 .logo {
-  display: inline-block;
   padding: 40px 0;
-  font-family: 'PT Serif', serif;
-  font-weight: bold;
-  font-size: 24px;
+  position: relative;
+  font: 24px/31px 'PT Serif', serif;
+  border: dashed 2px purple;
+}
+
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  border: dashed 1px red;
 }
 
 .menu {
