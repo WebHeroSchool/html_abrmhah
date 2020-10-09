@@ -80,7 +80,7 @@ body {
   opacity: .5;
 }
 
-.menu__item:hover::after, 
+.menu__item:hover::after,
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
