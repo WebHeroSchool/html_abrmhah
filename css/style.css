@@ -15,7 +15,7 @@ body {
 .logo {
   padding: 40px 0 40px 44px;
   position: relative;
-  font: 24px/31px 'PT Serif', serif;
+  font: bold 24px/31px 'PT Serif', serif;
 }
 
 .logo__circle {
@@ -67,9 +67,7 @@ body {
 }
 
 .main-content__title {
-  font-family: 'PT Serif', serif;
-  font-weight: bold;
-  font-size: 66px;
+  font: bold 66px/88px 'PT Serif', serif;
 }
 
 .main-content__subtitle {
