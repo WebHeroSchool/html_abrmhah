@@ -47,9 +47,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font: 500 18px/21px 'roboto-medium', sans-serif;
 }
 
 .menu__item:last-child {
@@ -71,9 +69,7 @@ body {
 }
 
 .main-content__subtitle {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 22px;
+  font: normal 22px/26px 'roboto-regular', sans-serif;
   padding: 40px 0;
 }
 
@@ -83,7 +79,5 @@ body {
   border-radius: 4px;
   background-color: rgb(53, 53, 199);
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font: 500 18px/21px 'roboto-medium', sans-serif;
 }
