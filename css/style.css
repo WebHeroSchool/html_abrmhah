@@ -90,26 +90,22 @@ body {
   margin-right: 0;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.main{
+  padding-top: 100px;
+  width: 37%;
 }
 
-.main-content {
-  align-items: center;
-}
-
-.main-content__title {
+.main__title {
+  margin: 0 0 40px 0;
   font: bold 66px/88px 'PT Serif', serif;
 }
 
-.main-content__subtitle {
+.main__subtitle {
+  margin-bottom: 0 0 41px 0;
   font: normal 22px/26px 'roboto-regular', sans-serif;
-  padding: 40px 0;
 }
 
-.main-button {
+.main__button {
   width: 271px;
   height: 57px;
   border-radius: 4px;
