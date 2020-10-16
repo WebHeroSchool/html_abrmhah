@@ -92,7 +92,8 @@ body {
 
 .main {
   padding-top: 100px;
-  width: 37%;
+  /* width: 37%; */
+  padding-right: 63%;
 }
 
 .main__title {
