@@ -10,6 +10,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -91,14 +92,17 @@ body {
 }
 
 .main {
-  padding-top: 100px;
-  /* width: 37%; */
-  padding-right: 63%;
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
   margin: 0 0 40px 0;
   font: bold 66px/88px 'PT Serif', serif;
+}
+
+.main__title-text_highlight {
+  background: #ecf3ff;
 }
 
 .main__subtitle {
