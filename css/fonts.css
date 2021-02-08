@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'PT Serif';
   src: 
-    url('./fonts/ptserif-bold-webfont.woff2') format('woff2'), 
-    url('./fonts/ptserif-bold-webfont.woff') format('woff');
+    url('./fonts/ptserif_bold.woff2') format('woff2'), 
+    url('./fonts/ptserif_bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 @font-face {
   font-family: 'Roboto';
   src: 
-    url('./fonts/Roboto-Medium.woff2') format('woff2'),
-    url('./fonts/Roboto-Medium.woff') format('woff');
+    url('./fonts/roboto_medium.woff2') format('woff2'),
+    url('./fonts/roboto_medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -19,8 +19,8 @@
 @font-face {
   font-family: 'Roboto';
   src: 
-    url('./fonts/Roboto-Regular.woff2') format('woff2'),
-    url('./fonts/Roboto-Regular.woff') format('woff');
+    url('./fonts/roboto_regular.woff2') format('woff2'),
+    url('./fonts/roboto_regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
