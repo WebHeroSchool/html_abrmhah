@@ -16,7 +16,7 @@ body {
 .logo {
   padding: 40px 0 40px 44px;
   position: relative;
-  font: bold 24px/31px 'PT Serif', serif;
+  font: bold 24px/31px PT Serif, serif;
 }
 
 .logo__circle {
@@ -49,7 +49,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px 'Roboto', sans-serif;
+  font: 500 18px/21px Roboto, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -98,7 +98,7 @@ body {
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 66px/88px 'PT Serif', serif;
+  font: bold 66px/88px PT Serif, serif;
 }
 
 .main__title-text_highlight {
@@ -107,7 +107,7 @@ body {
 
 .main__subtitle {
   margin-bottom: 0 0 41px 0;
-  font: normal 22px/26px 'Roboto', sans-serif;
+  font: normal 22px/26px Roboto, sans-serif;
 }
 
 .main__button {
@@ -116,5 +116,5 @@ body {
   border-radius: 4px;
   background-color: rgb(53, 53, 199);
   color: white;
-  font: 500 18px/21px 'Roboto', sans-serif;
+  font: 500 18px/21px Roboto, sans-serif;
 }
