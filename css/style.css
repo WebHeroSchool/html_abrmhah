@@ -1,7 +1,7 @@
-body {
-  display: flex;
+/* body {
+  display: contents;
   margin: 0;
-}
+} */
 
 .wrapper {
   margin: auto;
@@ -11,7 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 243px;
 }
 
 .logo {
@@ -95,6 +95,7 @@ body {
 .main {
   padding: 0 63% 100px 0;
   background: top right no-repeat url("../img/mainImg.svg");
+  
 }
 
 .main__title {
