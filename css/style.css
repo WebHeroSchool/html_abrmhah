@@ -1,7 +1,7 @@
-/* body {
-  display: contents;
+body {  
+  height: auto;
   margin: 0;
-} */
+}
 
 .wrapper {
   margin: auto;
@@ -93,7 +93,7 @@
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 63% 100% 0;
   background: top right no-repeat url("../img/mainImg.svg");
 }
 
