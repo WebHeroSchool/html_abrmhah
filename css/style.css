@@ -44,6 +44,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-left: 45px;
 }
 
 .menu__item {
@@ -111,10 +112,17 @@ body {
 }
 
 .main__button {
+  padding: 14px 16px;
   width: 271px;
   height: 57px;
   border-radius: 4px;
   background-color: rgb(53, 53, 199);
   color: white;
   font: 500 18px/21px Roboto, sans-serif;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
