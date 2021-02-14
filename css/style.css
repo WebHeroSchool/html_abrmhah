@@ -1,4 +1,4 @@
-body {  
+body {
   margin: 0;
 }
 
@@ -10,7 +10,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 243px;
+  margin-bottom: 130px;
+  padding: 0 0 0 4px;
 }
 
 .logo {
@@ -43,8 +44,8 @@ body {
 
 .menu {
   display: flex;
+  padding: 2px 11px 0 0;
   align-items: center;
-  margin-left: 45px;
 }
 
 .menu__item {
@@ -93,13 +94,14 @@ body {
 }
 
 .main {
-  padding: 0 63% 100% 0;
-  background: top right no-repeat url("../img/mainImg.svg");
+  padding: 0 65% 100% 0;
+  background: top right 5px no-repeat url("../img/mainImg.svg");
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
   font: bold 66px/88px PT Serif, serif;
+  padding: 73px 0 0 3px;
 }
 
 .main__title-text_highlight {
@@ -107,14 +109,13 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 60px 0;
   font: normal 22px/26px Roboto, sans-serif;
+  padding-left: 3px;
 }
 
 .main__button {
-  padding: 14px 16px;
-  width: 271px;
-  height: 57px;
+  padding: 18px 28px;
   border-radius: 4px;
   background-color: rgb(53, 53, 199);
   color: white;
