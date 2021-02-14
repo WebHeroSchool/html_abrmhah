@@ -17,7 +17,7 @@ body {
 .logo {
   padding: 40px 0 40px 44px;
   position: relative;
-  font: bold 24px/31px PT Serif, serif;
+  font: bold 24px/31px PT Serif, arial, sans-serif;
 }
 
 .logo__circle {
@@ -51,10 +51,14 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, sans-serif;
+  font: 500 18px/21px Roboto, arial, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
+}
+
+.menu_adapt {
+  display: none;
 }
 
 .menu__item_active::after {
@@ -100,7 +104,7 @@ body {
 
 .main__title {
   margin: 0 0 35px 0;
-  font: bold 66px/88px PT Serif, serif;
+  font: bold 66px/88px PT Serif, arial, sans-serif;
   padding: 73px 0 0 3px;
 }
 
@@ -110,7 +114,7 @@ body {
 
 .main__subtitle {
   margin: 0 0 60px 0;
-  font: normal 22px/26px Roboto, sans-serif;
+  font: normal 22px/26px Roboto, arial, sans-serif;
   padding-left: 3px;
 }
 
@@ -119,11 +123,51 @@ body {
   border-radius: 4px;
   background-color: rgb(53, 53, 199);
   color: white;
-  font: 500 18px/21px Roboto, sans-serif;
+  font: 500 18px/21px Roboto, arial, sans-serif;
   text-decoration: none;
   transition: .5s;
 }
 
 .main__button:hover {
   opacity: .5;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+  
+  .logo__text {
+    display: none;
+  }
+
+  /* .menu_adapt {
+    display: block;
+    color: #0056ec;
+  /* } */ ТУУТ */
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px PT Serif, arial, sans-serif;
+  }
+  
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: normal 16px/19px Roboto, arial, sans-serif;
+  }
+  
+  .main__button {
+    font: 500 14px/16px Roboto, arial, sans-serif;
+  }
 }
